@@ -1,0 +1,107 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  width: 480px; /* increased size */
+  padding: 36px;
+  border-radius: 18px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.row {
+  display: flex;
+  gap: 14px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 13px;
+  margin-top: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #43cea2;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+}
+
+.group {
+  margin-top: 20px;
+}
+
+.group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #e8f8f4;
+  font-size: 13px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+button {
+  flex: 1;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+  background: #185a9d;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.reset {
+  background: #999;
+}

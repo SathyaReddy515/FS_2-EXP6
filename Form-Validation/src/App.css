@@ -1,0 +1,156 @@
+/* Page */
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  width: 520px;
+  padding: 40px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Rows */
+.row {
+  margin-bottom: 25px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+  outline: none;
+}
+
+/* Password field */
+.password-box {
+  position: relative;
+}
+
+.toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Generator */
+.generator-box {
+  margin-top: 12px;
+}
+
+.generate-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.generate-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Password rules */
+.password-rules {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f8f9fa;
+  list-style: none;
+  font-size: 14px;
+}
+
+.password-rules li {
+  margin-bottom: 6px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+button {
+  width: 48%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.reset-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Messages */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.success {
+  margin-top: 20px;
+  text-align: center;
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+}
