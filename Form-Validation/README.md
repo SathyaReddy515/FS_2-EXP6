@@ -1,7 +1,5 @@
 # React Form Validation Example
 
-![App Screenshot](./screenshot.png)
-
 ## 📌 Experiment Title
 Form Validation and Event Handling in React
 
